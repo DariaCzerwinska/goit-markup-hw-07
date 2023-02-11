@@ -1,1 +1,1 @@
-https://github.com/DariaCzerwinska/-goit-markup-hw-07.git
+https://dariaczerwinska.github.io/goit-markup-hw-07/
