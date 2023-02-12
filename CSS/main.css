@@ -40,13 +40,14 @@ body {
 
 .link {
   text-decoration: none;
-  -webkit-transition: rgba(33, 33, 33, 1) 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: rgba(33, 33, 33, 1) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(33, 33, 33, 1);
 }
 .link:hover,
 .link:focus,
 .link:active {
   color: var(--accent-color);
+  -webkit-transition: rgba(33, 33, 33, 1) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: rgba(33, 33, 33, 1) 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -463,12 +464,10 @@ body {
 .social-media__link:focus {
   fill: var(--primary-bgd-color);
   background-color: var(--accent-color);
-  outline: none;
 }
-.social-media__link:hover .social-media__icon,
-.social-media__link:focus .social-media__icon {
+.social-media__icon:hover,
+.social-media__icon:focus {
   fill: var(--primary-bgd-color);
-  background-color: var(--accent-color);
 }
 .social-media__icon {
   cursor: pointer;
@@ -992,7 +991,7 @@ body {
   border-radius: 3px;
 }
 .checkbox__content:checked + .checkbox__field::before {
-  background-image: url(/images/icons.svg#icon-Vector-1);
+  background-image: url(../images/icons.svg#icon-Vector);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
