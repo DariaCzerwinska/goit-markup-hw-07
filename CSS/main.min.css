@@ -1068,7 +1068,6 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 56px;
-  margin-top: 82px;
 }
 .button-filters__button {
   font-family: var(--main-font-family);
