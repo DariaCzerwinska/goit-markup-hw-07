@@ -207,7 +207,7 @@ body {
   margin-right: auto;
   text-align: center;
   padding: 200px 0px;
-  background-image: -webkit-gradient(
+  background-image: webkit-gradient(
       linear,
       left top,
       right top,
@@ -220,7 +220,7 @@ body {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/goit-markup-hw-04/images/header-backgound.jpg);
+    url(../images/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -991,7 +991,7 @@ body {
   border-radius: 3px;
 }
 .checkbox__content:checked + .checkbox__field::before {
-  background-image: url(/goit-markup-hw-06/images/icons/icons.svg#icon-Vector-1);
+  background-image: url(/images/icons.svg#icon-Vector-1);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --primary-text-color: #757575;
   --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
@@ -39,13 +39,11 @@ img {
 .link:focus,
 .link:active {
   color: var(--accent-color);
-} */
-
-/*.list {
+}
+*/ .list {
   list-style: none;
-Dozwolone globalne resetowanie stylów w zadaniu 3
-}*/
-/* 
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -68,11 +66,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   min-height: 80px;
   background-color: var(--primary-bgd-color);
   z-index: 1;
-} */
+}
+*/
 
 /*logo*/
 
-/* .logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -85,11 +84,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 }
 .logo--webcolor {
   color: var(--accent-color);
-} */
+}
+*/
 
 /* navigation */
 
-/* .header-menu {
+.header-menu {
   display: flex;
   margin-left: 93px;
 }
@@ -120,9 +120,8 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   background-color: var(--accent-color);
   height: 4px;
   border-radius: 2px;
-} */
-
-/* .contact {
+}
+*/ .contact {
   display: flex;
   margin-left: auto;
 }
@@ -146,20 +145,20 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   margin-right: 10px;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .contact__link:hover .contact__icon-envelope,
+}
+*/ .contact__link:hover .contact__icon-envelope,
 .contact__link:focus .contact__icon-envelope {
   fill: var(--accent-color);
 }
 .contact__link:hover .contact__icon-smartphone,
 .contact__link:focus .contact__icon-smartphone {
   fill: var(--accent-color);
-} */
+}
+*/
 
 /*HERO*/
 
-/* .hero {
+.hero {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -171,7 +170,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/goit-markup-hw-04/images/header-backgound.jpg);
+    url(../images/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,9 +187,8 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   text-transform: uppercase;
   margin: 0 auto;
   margin-bottom: 30px;
-} */
-
-/* .hero__button {
+}
+*/ .hero__button {
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
@@ -201,8 +199,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   padding: 10px 42px 10px 41px;
   color: var(--secondary-text-color);
   background-color: #2196f3;
-  /* w mokapie przycisk nie ma zaznaczonego wizualnie cursor: pointer, ale w wymaganiach do zadania jest napisane, zeby prycisk miały określoną taką wartość*/
-/* cursor: pointer;
+  cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -216,11 +213,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
   );
-} */
+}
+*/
 
 /*our advantages*/
 
-/* .p-0 {
+.p-0 {
   padding-bottom: 0px;
 }
 .advantages {
@@ -239,9 +237,8 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   height: 120px;
   background-color: var(--third-bgd-color);
   margin-bottom: 30px;
-} */
-
-/* .advantages-component__title {
+}
+*/ .advantages-component__title {
   color: var(--header-text-color);
   font-weight: 700;
   line-height: 1.17;
@@ -253,11 +250,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   display: block;
   align-items: center;
   align-content: center;
-} */
+}
+*/
 
 /* what we do*/
 
-/* .whatwedo {
+.whatwedo {
   display: flex;
   justify-content: center;
 }
@@ -276,9 +274,8 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
-} */
-
-/* .whatwedo-layer {
+}
+*/ .whatwedo-layer {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -297,11 +294,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-} */
+}
+*/
 
 /*our team*/
 
-/* .ourteam {
+.ourteam {
   display: flex;
   justify-content: center;
 }
@@ -323,9 +321,8 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 }
 .section--team-background {
   background-color: var(--third-bgd-color);
-} */
-
-/* .ourteam__name {
+}
+*/ .ourteam__name {
   color: var(--header-text-color);
   font-size: 16px;
   font-weight: 500;
@@ -343,9 +340,8 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .social-media {
   display: flex;
   justify-content: center;
-} */
-
-/* .social-media__item {
+}
+*/ .social-media__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,9 +367,8 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   fill: var(--primary-bgd-color);
   background-color: var(--accent-color);
   outline: none;
-} */
-
-/* .social-media__link:hover .social-media__icon,
+}
+*/ .social-media__link:hover .social-media__icon,
 .social-media__link:focus .social-media__icon {
   fill: var(--primary-bgd-color);
   background-color: var(--accent-color);
@@ -382,11 +377,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   cursor: pointer;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
+*/
 
 /* our customers */
 
-/* .customers {
+.customers {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,11 +415,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .customers__ink:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
-} */
+}
+*/
 
 /*footer*/
 
-/* .footer {
+.footer {
   background-color: var(--secondary-bgd-color);
   padding-top: 60px;
   padding-bottom: 20px;
@@ -445,13 +442,11 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 }
 .footer__logo-adress {
   margin-bottom: 20px;
-} */
-
-/* .logo--footer-color {
+}
+*/ .logo--footer-color {
   color: var(--secondary-text-color);
-} */
-
-/* .adress {
+}
+*/ .adress {
   padding-bottom: 60px;
 }
 .adress__item {
@@ -468,11 +463,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .adress__item--contact:focus,
 .adress__item--contact:active {
   color: var(--accent-color);
-} */
+}
+*/
 
 /* join us */
 
-/* .joinus__title {
+.joinus__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -514,11 +510,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .joinus__link:focus {
   background-color: var(--accent-color);
   outline: none;
-} */
+}
+*/
 
 /* newsletter */
 
-/* .newsletter-form {
+.newsletter-form {
   margin-left: 78px;
 }
 .newsletter-form__label {
@@ -596,11 +593,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
   );
-} */
+}
+*/
 
 /*portfolio CSS*/
 
-/* .portfolio-header {
+.portfolio-header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
   position: fixed;
   top: 0;
@@ -609,9 +607,8 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   min-height: 80px;
   background-color: var(--primary-bgd-color);
   z-index: 1;
-} */
-
-/* .button-filters {
+}
+*/ .button-filters {
   display: flex;
   justify-content: center;
   margin-bottom: 56px;
@@ -703,11 +700,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   padding: 63px 24px;
-} */
+}
+*/
 
 /* Modal form */
 
-/* .backdrop {
+.backdrop {
   position: absolute;
   top: 0;
   left: 0;
@@ -862,7 +860,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   border-radius: 3px;
 }
 .checkbox__content:checked + .checkbox__field::before {
-  background-image: url(/goit-markup-hw-06/images/icons/icons.svg#icon-Vector-1);
+  background-image: url(/images/icons.svg#icon-Vector-1);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -917,4 +915,4 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
   );
-} */
+}
