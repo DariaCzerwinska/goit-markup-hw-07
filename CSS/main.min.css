@@ -81,11 +81,8 @@ body {
 }
 .page-header {
   border-bottom: 1px solid #ececec;
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  min-height: 80px;
+  height: 80px;
   background-color: var(--primary-bgd-color);
   z-index: 1;
 }
@@ -192,20 +189,12 @@ body {
   margin-right: auto;
   text-align: center;
   padding: 200px 0px;
-  background-image: webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(47, 48, 58, 0.4)),
-      to(rgba(47, 48, 58, 0.4))
-    ),
-    url(../images/header.jpg);
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/header.jpg);
+    url(/images/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -508,7 +497,7 @@ body {
 .footer {
   background-color: var(--secondary-bgd-color);
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 .footer__logo-adress {
   margin-bottom: 20px;
@@ -519,7 +508,7 @@ body {
   display: flex;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: baseline;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
@@ -534,10 +523,7 @@ body {
   width: 246px;
   white-space: nowrap;
 }
-.adress {
-  padding-bottom: 60px;
-}
-.adress__item {
+.adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
 .adress__item--contact {
